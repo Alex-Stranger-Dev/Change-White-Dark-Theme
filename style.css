@@ -1,0 +1,42 @@
+:root {
+    --main: #333;
+    --main-rgb: 51, 51, 51;
+    color-scheme: light;
+ }
+ body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: var(--main);
+ }
+ .container {
+    margin: 20px auto;
+    max-width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ form {
+    padding: 20px;
+    background-color: rgba(var(--main-rgb), .2);
+ }
+ input[type="email"],
+ textarea,
+ button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    color: var(--main);
+ }
+ textarea {
+    resize: none;
+    min-height: 100px;
+ }
+ 
+ /* Dark */
+ 
+ .dark {
+    --main: #fff;
+    --main-rgb: 255, 255, 255;
+    color-scheme: dark;
+ }
+ 
+ 
